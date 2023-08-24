@@ -8,6 +8,8 @@
   flex-grow: 0;
   flex-shrink: 1;
   margin-right: 20px;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -56,6 +58,7 @@
 .rating-container {
   display: flex;
   align-items: center;
+  width: 70px;
   background-color: #3b82f6;
   border-radius: 6px;
   padding: 6px 16px;
@@ -75,4 +78,10 @@
   height: 20px;
   width: 20px;
   margin-bottom: 3px;
+}
+.title {
+  text-decoration-line: none;
+}
+.brand {
+  text-decoration: none;
 }

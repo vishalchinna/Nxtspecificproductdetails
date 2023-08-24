@@ -1,1 +1,35 @@
-/* Write your CSS here */
+.similar-card {
+  margin-right: 70px;
+}
+.similar-img {
+  height: 140px;
+  border-radius: 8px;
+}
+.s-title {
+  font-size: 12px;
+}
+.s-brand {
+  font-size: 10px;
+}
+.s-price {
+  margin-top: 0px;
+}
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+}
+.s {
+  font-size: 8px;
+}
+.s-star {
+  height: 10px;
+}
+.rating-container-s {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+  background-color: #3b82f6;
+  border-radius: 6px;
+}
